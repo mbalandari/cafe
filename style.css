@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
     font-family: 'Lora', serif;
@@ -36,4 +36,23 @@ section {
 h2 {
     font-size: 32px;
     line-height: 1.2;
+}
+
+.image {
+    padding: 0;
+}
+
+blockquote {
+    font-size: 32px;
+    line-height: 1.2;
+    font-style: italic;
+    margin: 40px 0;
+}
+
+.contact-info p {
+    margin-top: 20px;
+}
+.contact-info a {
+    border-bottom: 2px solid #30535d;
+    padding-bottom: 1px;
 }
